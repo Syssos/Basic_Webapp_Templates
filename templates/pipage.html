@@ -1,11 +1,13 @@
 <html>
     <head>
         <title>Website Resume: Cody Paral</title>
-        <link rel="stylesheet" href="styles/stylemain.css">
-        <link rel="stylesheet" href="styles/styleabout.css">
-        <link rel="stylesheet" href="styles/stylepersonal.css">
-        <link rel="stylesheet" href="styles/styleaboutcontent.css">
-        <link rel="icon" href="images/icon.png">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/stylemain.css') }} ">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styleabout.css') }} ">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/stylebod.css') }} ">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/stylepersonal.css') }} ">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styleaboutcontent.css') }} ">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/stylejs.css') }} ">
+	<link rel="icon" href="{{ url_for('static',filename='images/icon.png') }} ">
         <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
     </head>
 
@@ -14,34 +16,34 @@
             <p>Website Resume: Cody Paral</p>
         </div>
         
-        <div class="nav">
-            <a href="/">
-                <div class="nav_item">
-                    <p>Home</p>
-                </div>
-            </a>
-            <a href="/about">
-                <div class="nav_item">
-                    <p>About</p>
-                </div>
-            </a>
-            <a href="/resume">
-                <div class="nav_item">
-                    <p>R&eacute;sum&eacute;</p>
-                </div>
-            </a>
-            <a href="/pipage">
-                <div class="nav_item">
-                    <p>Pi Page</p>
-                </div>
-            </a>
-            <a href="/JS_test">
-                <div class="nav_item">
-                    <p>JS Test Page</p>
-                </div>
-            </a>
-        </div>    
-        <div class="spacer1">
+	<div class="nav">
+          <a href="/">
+	    <div class="nav_item">
+	      <p>Home</p>
+	    </div>
+	  </a>
+	  <a href="/about">
+	    <div class="nav_item">
+	      <p>About</p>
+	    </div>
+	  </a>
+	  <a href="/resume">
+	    <div class="nav_item">
+	      <p>R&eacute;sum&eacute;</p>
+	    </div>
+	  </a>
+	  <a href="/pipage">
+	    <div class="nav_item">
+	      <p>Pi Page</p>
+	    </div>
+	  </a>
+	  <a href="/JS_test_page">
+	    <div class="nav_item">
+	      <p>JS Test</p>
+	    </div>
+	  </a>
+	</div>
+	<div class="spacer1">
                 &nbsp;
         </div>
         
