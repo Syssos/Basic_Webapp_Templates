@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.personal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.personal_image {
+    width: 40%;
+    height: 40%;
+    margin-left: 5%;
+}
+
+.personal_header {
+    width: 45%;
+    height: 40%;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.personal_header p {
+    text-align: left;
+    font-size: 18px;
+}
+
+.personal_header h3 {
+    font-weight: 600;
+    font-variant: small-caps;
+    padding-left: 5%;
+    font-size: 18px;
+    text-align: left;
+}
+
+.personal_main {
+    width: 90%;
+    height: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.personal_main h2 {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.personal_main p {
+    text-align: left;
+    margin-left: 10%;
+}

@@ -1,0 +1,14 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bod p {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}

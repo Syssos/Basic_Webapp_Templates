@@ -1,0 +1,199 @@
+<html>
+    <head>
+        <title>Website Resume: Cody Paral</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/stylemain.css') }} ">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styleabout.css') }} ">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/stylebod.css') }} ">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/stylepersonal.css') }} ">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/stylerepo.css') }} ">
+	<link rel="icon" href="{{ url_for('static',filename='images/icon.png') }} ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    </head>
+
+    <body>
+        <div class="hea">
+            <p>Website Resume: Cody Paral</p>
+        </div>
+
+        <div class="nav">
+            <a href="/">
+                <div class="nav_item">
+                    <p>Home</p>
+                </div>
+            </a>
+            <a href="/about">
+                <div class="nav_item">
+                    <p>About</p>
+                </div>
+            </a>
+            <a href="/resume">
+                <div class="nav_item">
+                    <p>R&eacute;sum&eacute;</p>
+                </div>
+            </a>
+            <a href="/pipage">
+                <div class="nav_item">
+                    <p>Pi Page</p>
+                </div>
+            </a>
+            <a href="/JS_test">
+                <div class="nav_item">
+                    <p>JS Test</p>
+                </div>
+            </a>
+        </div>
+        <div class="spacer">
+                &nbsp;
+            </div>
+        <section class="Main">
+            <div class="bod">
+                <div class="content_left">
+                    <div class="content_big">
+                        <p>
+                            <div class="personal">
+                                <div class="personal_image">
+                                <img src="{{ url_for('static',filename='images/Mugshot.JPG') }}">
+                                </div>
+                                <br>
+                                <div class="personal_header">
+                                        <h3>Name:</h3>
+                                        <p>&emsp;Cody Paral</p>
+                                        <h3>Age:</h3>
+                                        <p>&emsp;20</p>
+                                        <h3>Postitions of Interest:</h3>
+                                        <p>&emsp;SRE, Jr. software engineer, or devops rolls</p>
+                                </div>
+                                <div class="personal_main">
+                                    <h2>A little about myself:</h2>
+                                    <p>
+                                        I'm composed of the 3 "C's" Cars, Cooking, and Coding. I enjoy
+                                        projects involveing raspberry pi's. I have an interest in robotics and the automation of things.
+                                        In my spare time you can find me playing with my dog, coding, cooking, working on my
+                                        car or bike, or spending time with my family.
+                                    </p>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+                    <a target="blank" href="https://github.com/Syssos/Raspberry_pi">
+                        <div class="content_lit3">
+                            <h2>pi@raspberry: ~$ </h2>
+                            <p>
+                                Visit Github codebase
+                            </p>
+                        </div>
+                    </a>
+                    <div class="content_big">
+                            <div class="content_repo">
+                                <h2>Blog posts written by me</h2>
+                                <div class="content_blog">
+
+                                    <a target="blank" href="https://medium.com/@299_42481/what-happens-when-you-type-holbertonschool-com-in-your-browser-and-press-enter-5bd03a3be867">
+                                        <div class="blog_blob">
+                                            <p>What happens when you type holbertonschool.com in your browser and press Enter?</p>
+                                        </div>
+                                    </a>
+                                    <a target="blank" href="https://medium.com/@299_42481/machine-learning-a-simple-explanation-ea8581bc48fb">
+                                        <div class="blog_blob">
+                                            <p>Machine Learning, A Simple Explanation</p>
+                                        </div>
+                                    </a>
+                                    <a target="blank" href="https://medium.com/@299_42481/mutable-and-immutable-objects-in-python-c75cd3216461">
+                                        <div class="blog_blob">
+                                            <p>Mutable and Immutable Objects in Python</p>
+                                        </div>
+                                    </a>
+                                    <a target="blank" href="https://medium.com/@299_42481/difference-between-static-and-dynamic-libraries-fbed8eef1d60">
+                                        <div class="blog_blob">
+                                            <p>Difference between Static and Dynamic Libraries</p>
+                                        </div>
+                                    </a>
+                                    <a target="blank" href="https://medium.com/@299_42481/how-does-a-simple-linux-shell-take-commands-357a6927411c">
+                                        <div class="blog_blob">
+                                            <p>How Does a Simple Linux Shell Take Commands?</p>
+                                        </div>
+                                    </a>
+                                    <a target="blank" href="https://medium.com/@299_42481/static-libraries-in-c-f8d32c79ccd8">
+                                        <div class="blog_blob">
+                                            <p>Static Libraries in C</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="content_lit">
+                        <p>little 4
+                         </p>
+                    </div>
+                </div>
+                <div class="content_right">
+                        <a href="about.html#codeword">
+                            <div class="content_lit1">
+                                <h2>Like Pi? Click Here!</h2>
+                            </div>
+                        </a>
+                        <div class="content_big">
+                        <h2>Some Github repo's</h2>
+                        <a target="blank" href="https://github.com/Syssos/holbertonschool-higher_level_programming">
+                            <div class="repo">
+                                <p>holbertonschool-higher_level_programming</p>
+                            </div>
+                        </a>
+                        <a target="blank" href="https://github.com/Syssos/holberton-system_engineering-devops">
+                            <div class="repo">
+                                <p>holberton-system_engineering-devops</p>
+                            </div>
+                        </a>
+                        <a target="blank" href="https://github.com/Syssos/AirBnB_clone_v2">
+                            <div class="repo">
+                                <p>AirBnB_clone_v2</p>
+                            </div>
+                        </a>
+                        <a target="blank" href="https://github.com/Syssos/holbertonschool-low_level_programming">
+                            <div class="repo">
+                                <p>holbertonschool-low_level_programming</p>
+                            </div>
+                        </a>
+                        <a target="blank" href="https://github.com/Syssos/hodor">
+                            <div class="repo">
+                                <p>hodor</p>
+                            </div>
+                        </a>
+                        <a target="blank" href="https://github.com/Syssos/simple_shell">
+                            <div class="repo">
+                                <p>simple_shell</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="content_lit2">
+                        <h2>Launguages I'm familiar with:</h2>
+                        <div class="content_lang">
+                            <ul class="ul_lang">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>BASH</li>
+                                <li>MySQL</li>
+                            </ul>
+                            <ul class="ul_lang">
+                                <li>C</li>
+                                <li>C++</li>
+                                <li>Python</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content_big">
+                        <p>big 4
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <br><br><br><br>
+            <div class="footer">
+                <p>Thank you for visiting my page!</p>
+            </div>
+        </section>
+    </body>
+</html>

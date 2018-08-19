@@ -1,0 +1,149 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bod {
+    height: 1360px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 4px;
+    /**border: 1px solid black;**/
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content_left {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.content_right {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.content_right a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.content_left a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.content_lit1 h2 {
+    padding-top: 8%;
+    line-height: 75px;
+    font-variant: small-caps;
+}
+.content_big {
+    height: 500px;
+    /**border: 1px solid black;**/
+    margin: 5px 5px 5px 5px;
+}
+
+h2{
+    text-align: center;
+    padding-top: .5em;
+}
+
+.content_lit {
+    height: 150px;
+    border: 1px solid black;
+    margin: 5px 5px 5px 5px;
+}
+
+.content_lit3 h2 {
+    color: greenyellow;
+    padding-top: 8%;
+    font-variant: small-caps;
+}
+
+.content_lit3 p {
+    color: blue;
+}
+
+.content_lit2 {
+    height: 150px;
+    margin: 5px 5px 5px 5px;
+}
+
+.content p {
+    width: 100%;
+}
+
+.content_big img {
+    width: 100%;
+    height: 100%;
+}
+
+.content_lit1 {
+    height: 150px;
+    border: 1px solid black;
+    margin: 5px 5px 5px 5px;
+    border-radius: 2px;
+}
+
+.content_lit1:hover {
+    background-image: url("http://res.freestockphotos.biz/pictures/6/6167-illustration-of-right-facing-blue-arrows-pv.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.content_lit3 {
+    height: 150px;
+    border: 1px solid black;
+    margin: 5px 5px 5px 5px;
+    border-radius: 2px;
+    background-color: black;
+}
+
+.content_lit3:hover {
+    background-color: #111111;
+}
+
+.content_lang {
+    width: 100%;
+    height: 100%;
+    padding-left: 1em;
+    display: flex;
+    justify-content: right;
+}
+
+.ul_lang {
+    list-style-type: none;
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+
+.content_blog a {
+    text-decoration: none;
+    color: black;
+}
+
+.blog_blob {
+    height: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 90%;
+}
+
+.blog_blob:hover {
+    background-color: #f2f2ff;
+    color: #191919;
+}

@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.content_repo a {
+    text-decoration: none;
+    color: black;
+}
+
+.repo p {
+    line-height: 150%;
+    color: #0a3a87;
+    font-weight: 600;
+    font-size: 18px;
+    font-variant: small-caps;
+}
+.repo {
+    height: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 90%;
+    background-color: #aaaaaa;
+}
+
+.repo:hover {
+    opacity: 0.9;
+}
