@@ -14,13 +14,33 @@ def display_home():
 
 @app.route('/about')
 def goto_about():
+    """ directs traffic to about page
+    """
     return render_template("about.html")
 
+@app.route("/resume")
+def goto_resume():
+    """ directs traffic to resume page
+    """
+    return render_template("resume.html")
+
+@app.route("/pipage")
+def goto_pipage():
+    """ directs traffic to pi page
+    """
+    return render_template("pipage.html")
+
+@app.route("/JS_test_page")
+def goto_jspage():
+    """ directs traffic to js page
+    """
+    return render_template("JS_test.html")
+        
 @app.route("/LED_on")
 def lights_on():
     """ turns led on
     """
     return LED(17).blink()
-    
+        
 if __name__ == "__main__":
     app.run(host="192.168.137.80")
