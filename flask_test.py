@@ -2,9 +2,14 @@
 # flask app for website
 from flask import Flask, render_template
 from gpiozero import LED
+from time import sleep
+from gpiozero import PWMLED
+
 
 app = Flask(__name__)
-# app.url_map.strict_slashes = False
+app.url_map.strict_slashes = False
+led = PWMLED(17)
+
 
 @app.route('/')
 def display_home():
@@ -36,11 +41,31 @@ def goto_jspage():
     """
     return render_template("JS_test.html")
         
-@app.route("/LED_on")
+@app.route("/about")
+def goto_pi():
+    """ Goes to pi section in about
+    """
+    return render_template("about.html")
+
+@app.errorhandler(404)
+def page_not_found(e):
+    """ Returns custom 404
+    """
+    return render_template('404.html'), 404
+
+@app.route("/on")
 def lights_on():
     """ turns led on
     """
-    return LED(17).blink()
-        
+    led.pulse(background=True)
+    return ('', 204)
+
+@app.route("/off")
+def lights_off():
+    """ Turns LED off
+    """
+    led.off()
+    return ('', 204)
+
 if __name__ == "__main__":
-    app.run(host="192.168.137.80")
+    app.run(host="192.168.137.171")
