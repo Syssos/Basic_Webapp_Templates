@@ -1,0 +1,18 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.pi_buttons {
+    margin-top: 10%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pi_button_style {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid cyan;
+}

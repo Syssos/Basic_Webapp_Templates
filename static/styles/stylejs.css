@@ -10,3 +10,9 @@
 table, tr, td {
     border: 1px solid black;
 }
+
+.error_content {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
